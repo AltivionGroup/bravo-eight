@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+/* Header */
+header {
+  background-color: #003366;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.cta-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 24px;
+  background-color: #ff6600;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+.cta-buttons a:hover {
+  background-color: #e65500;
+}
+
+/* Section Styling */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+h2 {
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+/* Services */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.service-box {
+  flex: 1 1 30%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* List Styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li::before {
+  content: "✔";
+  margin-right: 10px;
+  color: #66cc33;
+  font-weight: bold;
+}
+
+/* Quote */
+blockquote {
+  font-style: italic;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 0.9rem;
+}
+footer a {
+  color: #ff6600;
+  text-decoration: underline;
+}
